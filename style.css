@@ -1,0 +1,175 @@
+	.navbar{
+		background-color: #ECF0F1;
+		height: 38px;
+		padding: 10px;
+		
+		max-width: 100%;
+	}
+	.navbar ul{
+		display: inline;
+
+	}
+	.navbar li{
+		display: inline;
+
+		
+	}
+	.navbar h3{
+		display: inline;
+		font-size: 24px;
+		color: #273746;
+		padding:8px;
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+
+	}
+
+	.navbar a{
+		color: #273746;
+		text-decoration: none;
+		font-size: 20px;
+		margin-left: 30px;
+		padding:  10px;
+		border-radius: 5px;
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+		font-family: 'Indie Flower', cursive;
+	}
+
+	.navbar a:hover{
+		background-color: #273746;
+		color: #ECF0F1;
+	}
+
+	.dropdown{
+		display: none;
+		position: absolute;
+		background-color: #DCDCDC;
+		width: 100%;
+		max-width: 100%;
+		left: 0;
+		margin-top: 10px;
+	}
+	.dropdown a{
+		display: block;
+		margin-left: 10px;
+	}
+
+	.dropdown ul{
+		display: block;
+	}
+	.dropdown li{
+		display: block;
+	}
+
+	.navbar li:hover .dropdown{
+		display: block;
+	}
+	.column{
+		width: 24%;
+		float: left;
+		height: 600px;
+	}
+	.dropdown h4{
+		margin: 6px;
+		font-size: 24px;
+		color: #273746;
+		padding:8px;
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+	}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	@media screen and (max-width: 1000px) {
+	  .column {
+	    width: 100%;
+	    height: auto;
+	  }
+	  .navbar{
+	  	width: 100%;
+	    height: auto;
+	  }
+	}
+	.container{
+		width: 300px;
+		max-width: 100%;
+		margin: auto;
+		padding: 40px;
+		height: 500px;
+	}
+
+	#form-container{
+
+		max-width: 100%;
+		background-color: white;
+		padding: 20px;
+		margin-top: 70px;
+		height: 330px;
+		border-radius: 5px;
+	}
+
+	.form-group{
+		margin: 12px;
+
+	}
+	input{
+		width: 100%;
+		margin-top: 10px;
+		height: 23px;
+		border-radius: 5px;
+		outline: none;
+		font-size: 18px;
+
+	}
+
+	label{
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+		font-size: 18px;
+	}
+
+	input[type=submit]{
+		background-color: #273746;
+		border: none;
+		height: 40px;
+		color:#ECF0F1;
+		font-size: 17px;
+		cursor: pointer;
+		border-radius: 5px;
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+
+	}
+
+	input[type=submit]:hover{
+		background-color:#1b252e; 
+	}
+	input[type=text]:focus{
+		background-color: #ECF0F1;
+	}
+	input[type=email]:focus{
+		background-color: #ECF0F1;
+	}
+	input[type=password]:focus{
+		background-color: #ECF0F1;
+	}
+
+	h1{
+		text-align: center;
+		font-size: 27px;
+		color:#273746; 
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Bangers', cursive;
+		font-family: 'Epilogue', sans-serif;
+		font-family: 'Fondamento', cursive;
+
+	}
